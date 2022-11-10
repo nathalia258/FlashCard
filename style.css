@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.ibb.co/DrfCcnn/fondo-Matematico.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    bottom: 350px;
+    margin: auto;  
+    width: 98.3%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Flash-Card{
+    width:400px;
+    height:460px;
+    margin: 50px 0 0 5px;
+    text-align:center; 
+    background: white;
+    border-radius: 0.9rem;
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    justify-content: space-evenly;
+}
+
+.operacion input{
+    cursor: default;
+    /* border: none; */
+    margin-top: 20px;
+    padding-top: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.play-again{
+    margin-top: 15px;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.result{
+    margin-top: 15px;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.reset{
+    margin-top: 15px;
+    cursor: pointer;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.mezclar{
+    margin-top: 15px;
+    cursor: pointer;
+    background: skyblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.play-again:hover{
+    transform: scale(1.05);
+}
+
+.result:hover{
+    transform: scale(1.05);
+}
+.reset:hover{
+    transform: scale(1.05);
+}
+.mezclar:hover{
+    transform: scale(1.05);
+}
+
+.respuestas input{
+    margin-top: 15px;
+    padding: 30px 88px 48px;
+}
