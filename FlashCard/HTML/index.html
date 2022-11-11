@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Card</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Flash Card</h1>
+    <div class="container">
+        <div class="tarjeta">
+            <div class="carasTarjetas" id="carasTarjetas">
+                <div class="Flash-Card-Back">
+                    <div class="operacion">
+                        <input type="text">
+                    </div>
+                    <div class="buttons">
+                            <button class="result" onclick="eventFlipCard()">repuesta</button>
+                            <button class="mezclar">mezclar</button>
+                            <button class="play-again">Play again?</button>
+                            <button class="reset">reset</button>
+                    </div>
+                    <div class="respuestas">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="Flash-Card-Front">
+                    <h2>RESULTADOS</h2>
+                    <div class="regresar">
+                        <button id="regresar" onclick="eventFlipFrontCard()">regresar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+</html>
